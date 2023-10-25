@@ -1,0 +1,106 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000;
+}
+body {
+  background: url(https://images.unsplash.com/photo-1697614929086-e6fe8e17eab1?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+    no-repeat center;
+  background-size: 100%;
+    }
+nav {
+    background-color: rgba(253, 252, 251, 0.8);
+    padding: 30px;
+    }
+  ul {
+    display: flex;
+    color: azure;
+    justify-content: space-between;
+    margin: 0 150px;
+    }
+  li {
+    list-style: none;
+    }
+  a {
+    text-decoration: none;
+    color: #000;
+    }
+    #signin {
+        background-color: #1e0f0f;
+        border-radius: 15px;
+        padding: 20px;
+        color: #fff;
+    }
+.loginform {
+    background-color: rgba(255, 254, 253, 0.7);
+    height: 500px;
+    width: 450px;
+    margin: 150px 0 0 550px;
+    border: 2px solid #070000;
+    border-radius: 15px;
+    color: azure;
+    }
+h1 {
+    margin: 0 180px;
+    padding: 20px;
+    }
+p {
+    margin: 70px 100px;
+    }
+
+input, #submitBtn {
+    background: transparent;
+    border: none;
+    border-bottom: #000 solid 1px;
+    display: block;
+    margin: 20px;
+    height: 40px;
+    width: 300px;
+}
+    </style>
+  </head>
+  <body>
+    <!----------NAV SECTION------------------>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#" id="signin">SignIn</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--------CONTENT------------------------>
+    <main>
+      <div class="loginform">
+          <h1>Login</h1>
+        
+          <form>
+            <input type="text" name="username" value="Username" />
+            <input type="text" name="password" value="Password" />
+            <div class="submition">
+            <a href="#" id="password" style="text-decoration: underline; margin: 20px;">Forgot password?</a>
+            <button id="submitBtn" style="background-color: black; color: aliceblue; border-radius: 10px;">Login</button>
+           </div>
+          </form>
+       
+
+        
+        <div class="SignUP">
+          <p>
+            Dont have an account? click
+            <a href="#" style="color: rgb(229, 87, 87)">SignUP</a>
+          </p>
+        </div>
+    </main>
+  </body>
+</html>
